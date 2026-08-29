@@ -41,6 +41,16 @@ A backend API for a simplified event ticketing platform built with Django and Dj
    Every request is logged to the terminal by `RequestLoggingMiddleware` in the form:
    `METHOD /path - status_code - duration`
 
+## API Documentation (Swagger)
+
+Interactive API docs are generated automatically with `drf-spectacular`:
+
+| URL | Description |
+|---|---|
+| `/api/docs/` | Swagger UI — browse and try out every endpoint from the browser. |
+| `/api/redoc/` | Redoc — a read-only reference view of the same schema. |
+| `/api/schema/` | Raw OpenAPI 3 schema (YAML). |
+
 ## Endpoints
 
 ### Events
