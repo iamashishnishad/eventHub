@@ -87,3 +87,13 @@ Interactive API docs are generated automatically with `drf-spectacular`:
 - [x] Cancel a reservation (seats restored to event)
 - [x] Filter reservations by event_id
 - [x] Middleware logs appear in the terminal for every request
+1. Successful reservation
+<img width="2918" height="1668" alt="image" src="https://github.com/user-attachments/assets/9c608352-4db9-4007-b976-0ddb631adb8e" />
+
+2. Overbooking failure
+   <img width="2914" height="1660" alt="image" src="https://github.com/user-attachments/assets/1206addf-391e-43ff-9815-4c5512cb4bca" />
+
+3. Successful cancellation
+<img width="2922" height="1664" alt="image" src="https://github.com/user-attachments/assets/cd6851f7-cacd-4827-8df1-4b6c92ff2452" />
+
+
